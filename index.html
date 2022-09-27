@@ -8,7 +8,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="./styles/bootstrap.min.css">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css" rel="stylesheet"
-    integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT" crossorigin="anonymous">
+        integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT" crossorigin="anonymous">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
     <link rel="stylesheet" href="./styles/styles.css">
     <title>Barber Shop BM | Tienda Online</title>
     <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -22,7 +23,40 @@
         <h1>Barber Shop Tienda de Productos Online</h1>
     </div>
     <header class="fondodebarradenav">
-        <section>
+        <nav class="navbar navbar-expand-lg bg-light fondodebarradenav">
+            <div class="container-fluid">
+                <div class=" navbar-brand logo">
+                    <a href="./index.html">
+                        <img src="./assets/logo2.0.png" alt="Logo Barber Shop">
+                    </a>
+                </div>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                    aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse barnav" id="navbarNav">
+                    <ul class="navbar-nav">
+                        <li class="nav-item">
+                            <a class="nav-link" aria-current="page" href="./index.html">Inicio</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="./pages/maquinas.html">Máquinas</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="./pages/tijerasynavajas.html">Tijeras & Navajas</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="./pages/accesorios.html">Accesorios</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="./pages/contacto.html">Contacto</a>
+                        </li>
+
+                    </ul>
+                </div>
+            </div>
+        </nav>
+        <!-- <section>
             <div class="contenedorLogo">
 
                 <div class="logo">
@@ -55,20 +89,26 @@
             </nav>
             </div>
             <br>
-        </section>
+        </section> -->
     </header>
 
     <!-- CIERRE DE HEADER LOGO + NAV -->
     <!-- INICIO MAIN -->
     <main>
         <!-- FOTOS CARRUSEL -->
-        <section>
-            <img src="./assets/carrusel01.jpg" class="fotoscarrusel"
-                alt="foto de fondo de maquinas y productos capilares">
-            <img src="./assets/carrusel02.jpg" class="fotoscarrusel" alt="foto de fondo de sillon de barberia">
-            <img src="./assets/carrusel03.jpg" class="fotoscarrusel" alt="foto de fondo de una barberia">
-        </section>
-
+        <div id="carrusell" class="carousel slide" data-bs-ride="carousel">
+            <div class="carousel-inner">
+                <div class="carousel-item active" data-bs-interval="2000">
+                    <img src="./assets/carruselfoto1.jpg" class="d-block w-100" alt="foto maquinas cortadoras de pelo">
+                </div>
+                <div class="carousel-item" data-bs-interval="2000">
+                    <img src="./assets/carrusel02.jpg" class="d-block w-100" alt="foto sillon de barberia">
+                </div>
+                <div class="carousel-item" data-bs-interval="2000">
+                    <img src="./assets/carrusel03.jpg" class="d-block w-100" alt="foto de salon de peluqueria">
+                </div>
+            </div>
+        </div>
         <!--CIERRE FOTOS CARRUSEL -->
         <h2 class="h2categoriasinicio">CATEGORIAS</h2>
         <br>
@@ -76,26 +116,26 @@
 
         <section class="categoriasinicio">
 
-            <article class="tarjetainicio">
+            <article class="tarjetainicio" data-aos="zoom-in" data-aos-duration="2000">
 
                 <a href="./pages/maquinas.html" class="botontarjetainicio">Máquinas</a>
 
             </article>
 
-            <article class="tarjetainicio-dos">
+            <article class="tarjetainicio-dos" data-aos="zoom-in" data-aos-duration="2000">
 
                 <a href="./pages/tijerasynavajas.html" class="botontarjetainicio-dos">Tijeras Y Navajas</a>
 
             </article>
         </section>
         <section class="categoriasinicio">
-            <article class="tarjetainicio-tres">
+            <article class="tarjetainicio-tres" data-aos="zoom-in-right" data-aos-duration="2000">
 
                 <a href="./pages/contacto.html" class="botontarjetainicio">Contacto</a>
 
             </article>
 
-            <article class="tarjetainicio-cuatro">
+            <article class="tarjetainicio-cuatro" data-aos="zoom-in-left" data-aos-duration="2000">
 
                 <a href="./pages/accesorios.html" class="botontarjetainicio">Accesorios</a>
 
@@ -151,10 +191,18 @@
         </div>
     </footer>
     <!-- Cierre del footer -->
+    <!-- AOS -->
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+        AOS.init();
+    </script>
+    <!-- CIERRE DE AOS -->
+    <!-- BOOTSTRAP -->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-u1OknCvxWvY5kfmNBILK2hRnQC3Pr17a+RTT6rIHI7NnikvbZlHgTPOOmMi466C8"
         crossorigin="anonymous"></script>
     <script src="./js/bootstrap.bundle.min.js"></script>
+    <!-- CIERRE DE BOOTSTRAP -->
 </body>
 
 </html>
