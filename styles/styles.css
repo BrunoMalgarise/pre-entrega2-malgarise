@@ -15,6 +15,7 @@ a{
     text-decoration:none ;
 }
 /* Foto de fondo de barra de navegacion */
+
 .fondodebarradenav{
     background-color: coral;
     background-image: url(../assets/Fotonavajadfondonav.png);
@@ -96,6 +97,7 @@ a{
     display: flex;
     flex-direction: row;
     justify-content: center;
+    
 }
 .barnav ul{
     background-color: #a96521bf;
@@ -111,95 +113,20 @@ a{
     font-family: 'Saira', sans-serif;
     font-size: 1rem;
 }
-.barnav a:hover{
+.barnav__animacion a:hover{
     color: black;
+    transform: scale(1.2);
 }
-@keyframes animacion-letra-barnav{
-    
-}
-
-
-/* @media(min-width:250px) and (max-width:576px){
-    .barnav {
-        display: none;
-    }
-    .dropdown{
-        display: inline-block;
-        position: relative;
-    }
-
-    .dropdown-content{
-        display: none;
-        position: absolute;
-        width: auto;
-        height: auto;
-        overflow: auto;
-        box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
-        background-color:#a96521bf;
-    }
-
-    .dropdown:hover .dropdown-content{
-        display: block;
-    }
-    .dropdown-content a{
-        display: block;
-        color: rgb(255, 255, 255);
-        font-family: 'Saira', sans-serif;
-        padding: 5px;
-        text-decoration: none;
-    }
-    .dropdown-content a:hover{
-        color :black;
-    }
-}
-@media(min-width:576px){
-    .dropdown{
-        display: none;
-    }
-}
-@media(min-width:576px) and (max-width:1023px){
-    .barnav{
-        width: 100%;
-        margin: 20px;
-        display: flex;
-        flex-direction: row;
-        justify-content: center;
-        align-items: center;
-    }
+@media(min-width:0px) and (max-width:1200px){
     .barnav ul{
-        padding: 0;
-        height: 50px;
-        display: inline-block;
-    }
-    .barnav ul li a{
-        padding: 0;
-        font-size: 1rem;
+        width: 100%;
+        text-align: center;
     }
 }
-.barnav ul{
-    width: fit-content;
-    margin: 0 auto;
-    background-color:#a96521bf;
-    padding: 1px;
-    border-radius: 20px;
-
-
-}
-.barnav ul li{
-    display: inline-block;   
-}
-.barnav a{
-    color: white;
-    padding: 10px;
-    font-family: 'Saira', sans-serif;
-    font-size: 1.2rem;
-} */
-/* Cierre barra de navegacion */
-/* COMIENZO DE MAIN*/
-/* CARRUSEL */
-
-
-/* CIERRE DE CARRUSEL */
+.btnestilo{
+    background-color: #a96521bf;
+    border: 3px solid rgba(0, 0, 0, 0.54);
+} 
 
 /* Comienzo fotos con link a los archivos pag principal */
 /* -----CATEGORIAS INICIO------ */
@@ -369,7 +296,7 @@ a{
 }
 
 .tarjetainicio-tres{
-    background-image: url(../assets/Fotorecortadacontacto.png);
+    background-image: url(../assets/iniciocontacto.png);
     background-repeat: no-repeat;
     height: 605px;
     width: 420px;
