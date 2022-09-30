@@ -449,7 +449,7 @@ form,div,h1{
 
 
 /* -----COMIENZO DE FOOTER------ */
-@media(min-width:250px) and (max-width:800px){
+/* @media(min-width:250px) and (max-width:800px){
     .footer div{
         display: flex;
         flex-direction: column;
@@ -459,18 +459,13 @@ form,div,h1{
     .footercategorias{
         margin: 0;
     }
-}
+} */
 .footer{
-    background-color:rgb(240, 240, 240);
-    width: 100%;
-    height: auto;
+    background-color:rgb(155, 153, 153);
     font-family: 'Saira', sans-serif;
 }
 .divfooter{
-    padding: 30px;
-    display:flex;
-    flex-direction: row;
-    justify-content:space-around;    
+    padding: 30px;    
 }
 .h3footer{
     padding: 10px;
@@ -500,11 +495,7 @@ form,div,h1{
 
 
 /* PAGO */
-.footerpago, img{
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-}
+
 /* CIERRE PAGO */
 
 /* -----CIERRE DE FOOTER------ */
