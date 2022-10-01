@@ -449,6 +449,17 @@ form,div,h1{
 
 
 /* -----COMIENZO DE FOOTER------ */
+@media(min-width:992px){
+    .footer-h{
+        height: auto;
+    }
+    .footer-contenido{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: flex-start;
+    }
+}
 .bg-color{
     background-color: rgb(152, 152, 152);
 }
@@ -463,7 +474,7 @@ form,div,h1{
     font-size: 1.3rem;
 }
 .footer-texto{
-    background-color: #a965215a;
+    font-family: 'Orbitron', sans-serif;
     
 }
 
