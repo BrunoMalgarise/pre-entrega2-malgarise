@@ -326,7 +326,7 @@ a{
 /* ----- CIERRE CATEGORIAS------ */
 /* CIERRE DE  fotos con link a los archivos pag principal*/
 /* TARJETAS */
-.tarjproductos{
+/* .tarjproductos{
     background-color: gray;
     width: 300px;
     height: 835px;
@@ -363,7 +363,17 @@ a{
 .tarjproductos:hover{
     background-color: black;
     color: white;
+} */
+.tarjproductos{
+    background-color: gray;
+    font-family: 'Saira', sans-serif;
+    height: 50vh;
+    border-radius: 5px;
 }
+.tarjproductos h4{
+    font-size: 0.9rem;
+}
+
 
 
 /* Cierre de tarjetas */
