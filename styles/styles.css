@@ -96,7 +96,7 @@ a{
 .barnav{
     display: flex;
     flex-direction: row;
-    justify-content: center;
+    justify-content: start;
     
 }
 .barnav ul{
@@ -117,7 +117,7 @@ a{
     color: black;
     transform: scale(1.2);
 }
-@media(min-width:0px) and (max-width:1200px){
+@media(min-width:0px) and (max-width:992px){
     .barnav ul{
         width: 100%;
         text-align: center;
@@ -449,43 +449,24 @@ form,div,h1{
 
 
 /* -----COMIENZO DE FOOTER------ */
-/* @media(min-width:250px) and (max-width:800px){
-    .footer div{
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
-        align-items: center;
-    }
-    .footercategorias{
-        margin: 0;
-    }
-} */
-.footer{
-    background-color:rgb(155, 153, 153);
-    font-family: 'Saira', sans-serif;
+.bg-color{
+    background-color: rgb(152, 152, 152);
 }
-.divfooter{
-    padding: 30px;    
+.categorias-footer{
+    text-decoration: none;
+    list-style: none;
+    padding: 0;
 }
-.h3footer{
-    padding: 10px;
-    margin: 50px;
-    font-size: 1.5rem;
-    background-color: gray;
-}
-/* FOOTER CATEGORIAS */
-.footercategorias,ul,li,a{
-    list-style:none;
+.categorias-footer__li a{
+    text-decoration: none;
     color: black;
-    margin: 5px;
+    font-size: 1.3rem;
 }
-.footercategorias h3{
-    margin-top: 105px;
+.footer-texto{
+    background-color: #a965215a;
+    
 }
-.footercategorias,ul,li{
-    margin: 5px;
-    font-weight: bold; 
-}
+
 /* CIERRE FOOTER CATEGORIAS */
 
 /* REDES */

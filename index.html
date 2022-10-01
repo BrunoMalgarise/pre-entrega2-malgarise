@@ -110,50 +110,55 @@
     </main>
     <!-- CIERRE DE MAIN -->
     <!-- Comienzo del footer -->
-    <footer class="container-fluid footer">
+    <footer class="container-fluid bg-color">
         
-        <div class="container divfooter">
+        <div class="container">
 
-            <div class="row footercategorias">
+            <div class="row">
 
-                <div>
-                    <img src="./assets/logo2.0.png" class="" alt="foto del logo">
+                <div class="d-flex flex-column align-items-center p-5">
+                    <img src="./assets/logo2.0.png" alt="foto del logo">
                 </div>
 
-                <div>
-                    <h3 class="h3footer">CATEGORIAS</h3>
+                <div class="p-3">
+                    <h3 class="text-center fs-1 footer-texto">CATEGORIAS</h3>
+                
+                    <div class="p-3 d-flex flex-column ">
+                        <ul class="categorias-footer">
+                            <li class="categorias-footer__li p-1"><a href="./pages/maquinas.html">Máquinas</a></li>
+                            <li class="categorias-footer__li p-1"><a href="./pages/tijerasynavajas.html">Tijeras Y Navajas</a></li>
+                            <li class="categorias-footer__li p-1"><a href="./pages/accesorios.html">Accesorios</a></li>
+                            <li class="categorias-footer__li p-1"><a href="./pages/contacto.html">Contacto</a></li>
+                        </ul>
+                    </div>
                 </div>
 
-                <ul>
-                    <li><a href="./pages/maquinas.html">Máquinas</a></li>
-                    <li><a href="./pages/tijerasynavajas.html">Tijeras Y Navajas</a></li>
-                    <li><a href="./pages/accesorios.html">Accesorios</a></li>
-                    <li><a href="./pages/contacto.html">Contacto</a></li>
-                </ul>
 
-                <div>
-                    <h3 class="h3footer">REDES</h3>
+                <div class="p-3">
+                    <h3 class="text-center fs-1 footer-texto">REDES</h3>
+                    <div class="p-5 d-flex justify-content-around">
+
+                        <a href="https://www.instagram.com/" target="_blank">
+                            <img src="./assets/instagram-logo-24.png" alt="logo de instagram">
+                        </a>
+
+                        <a href="https://twitter.com/" target="_blank">
+                            <img src="./assets/twitter-logo-24.png" alt="logo de twitter">
+                        </a>
+                    </div>
                 </div>
 
-                <a href="https://www.instagram.com/" target="_blank">
-                    <img src="./assets/instagram-logo-24.png" alt="logo de instagram">
-                </a>
-
-
-
-                <a href="https://twitter.com/" target="_blank">
-                    <img src="./assets/twitter-logo-24.png" alt="logo de twitter">
-                </a>
-
-                <div>
-                    <h3 class="h3footer">METODOS DE PAGO</h3>
+                <div class="p-3">
+                    <h3 class="text-center fs-1 footer-texto">METODOS DE PAGO</h3>
+                    <div class="p-5 d-flex justify-content-center">
+                        <img src="./assets/logopago.jpg" alt="foto de tarjetas" class="w-75 ">
+                    </div>
                 </div>
-                <img src="./assets/logopago.jpg" alt="foto de tarjetas">
-
             </div>
         </div>
     </footer>
     <!-- Cierre del footer -->
+
     <!-- AOS -->
     <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
     <script>
