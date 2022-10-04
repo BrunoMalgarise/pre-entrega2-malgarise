@@ -367,12 +367,13 @@ a{
 .tarjproductos{
     background-color: gray;
     font-family: 'Saira', sans-serif;
-    height: 60vh;
+    height: auto;
     border-radius: 5px;
 }
 .tarjproductos h4{
     font-size: 0.9rem;
 }
+
 
 
 
