@@ -15,7 +15,6 @@ a{
     text-decoration:none ;
 }
 /* Foto de fondo de barra de navegacion */
-
 .fondodebarradenav{
     background-color: coral;
     background-image: url(../assets/Fotonavajadfondonav.png);
@@ -23,10 +22,6 @@ a{
     background-position: center;
     background-size:cover;
 }
-@media(min-width:250px) and (max-width:576px){
-
-}
-
 /* cierre de foto de fondo de barra de navegacion */
 
 /* ----------LOGO --------------*/
@@ -92,6 +87,7 @@ a{
 
 }
 /* CIERRE H1 */
+
 /* Barra de navegacion */
 .barnav{
     display: flex;
@@ -165,6 +161,7 @@ a{
 /* CIERRE CATEGORIAS INICIO TITULO */
 
 /* -----TARJETAS INICIO------- */
+/* FIJAME EN COSAS QUE CREO QUE ESTAN DE MAS SIN NINGUNA FUNCIONALIDAD */
 @media(min-width:250px) and (max-width:700px){
     main .categoriasinicio{
         display: flex;
