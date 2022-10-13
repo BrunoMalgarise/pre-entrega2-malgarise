@@ -1,19 +1,19 @@
 /* Reseteo universal */
-*{
+/* *{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
 /*  Cierre de reseteo */
 
-body{
+/* body{
     background-color: rgba(0, 0, 0, 0.779);
     overflow: auto;
 }
 
 a{
     text-decoration:none ;
-}
+} */
 /* Foto de fondo de barra de navegacion */
 .fondodebarradenav{
     background-color: coral;
@@ -125,7 +125,7 @@ a{
 } 
 
 /* Comienzo fotos con link a los archivos pag principal */
-/* -----CATEGORIAS INICIO------ */
+/* -----tarjetas------ */
 .productos{
     color: white;
     font-size: 2rem;
@@ -135,9 +135,8 @@ a{
 
     margin-top: 20px;
     padding: 20px;
-    
-
 }
+/* CIERRE DE CARDS */
 /* CATEGORIAS INICIO TITULO */
 @media(min-width:250px) and (max-width:576px){
     .h2categoriasinicio{
@@ -399,7 +398,7 @@ form,div,h1{
     font-family: 'Saira', sans-serif;
     background-color: rgb(173, 96, 18);
 }
-.mainmaquinaslist a{
+/* .mainmaquinaslist a{
     color: white;
     font-family: 'Saira', sans-serif;
     
@@ -412,11 +411,11 @@ form,div,h1{
     width: fit-content;
     margin: 0 auto;
     margin-top: 1%;
-    background-color:rgb(173, 96, 18)
+    background-color:rgb(173, 96, 18);
 }
 .mainmaquinaslist,a:hover{
     color: black;
-}
+} */
 
 
 /* -----COMIENZO DE FOOTER------ */

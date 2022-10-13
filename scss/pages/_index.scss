@@ -1,0 +1,154 @@
+.categoriasinicio{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    padding: 30px;
+}
+@media(min-width:250px) and (max-width:700px){
+    main .categoriasinicio{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap: 50px;
+    }
+    main .tarjetainicio{
+        width: 300px;
+        height: 500px;
+    }
+    main .tarjetainicio-dos{
+        width: 300px;
+        height: 500px;
+    }
+    main .tarjetainicio-tres{
+        width: 300px;
+        height: 500px;
+    }
+    main .tarjetainicio-cuatro{
+        width: 300px;
+        height: 500px;
+    }
+    main .botontarjetainicio{
+        font-size: 1.5rem;
+    }
+    main .botontarjetainicio-dos{
+        font-size: 1.3rem;
+        width: 200px;
+    }
+}
+@media(min-width:576px) and (max-width:930px){
+    main .categoriasinicio{
+        padding: 10px;
+        margin: 10px;
+    }
+    main .tarjetainicio{
+        width: 290px;
+        height: 500px;
+    }
+    main .tarjetainicio-dos{
+        width: 290px;
+        height: 500px;
+    }
+    main .tarjetainicio-tres{
+        width: 290px;
+        height: 500px;
+    }
+    main .tarjetainicio-cuatro{
+        width: 290px;
+        height: 500px;
+    }
+    main .botontarjetainicio{
+        font-size: 1.3rem;
+    }
+    main .botontarjetainicio-dos{
+        font-size: 1.3rem;
+        width: 200px;
+    } 
+}
+
+.tarjetainicio{
+    background-image: url(../assets/Fotorecortadamaquina.png);
+    background-repeat: no-repeat;
+    height: 605px;
+    width: 420px;
+    border: 3px solid gray;
+    a{
+        display: flex;
+        flex-direction: column;
+        justify-content:flex-end;
+        align-items:center;
+    }
+}
+
+.botontarjetainicio{
+    text-decoration: none;
+    color: black;
+    font-size: 2rem;
+    background-color: white;
+    border:5px solid gray;
+    height: auto;
+    width: 200px;
+    margin-block-end:40px;
+    font-family: 'Saira', sans-serif;
+    &:hover{
+        border:5px solid rgb(255, 255, 255);
+        color: white;
+        background-color: rgb(0, 0, 0);
+    }
+}
+.tarjetainicio-dos{
+    background-image: url(../assets/Fotorecortadatijenav.png);
+    background-repeat: no-repeat;
+    height: 605px;
+    width: 420px;
+    border: 3px solid gray;
+    a{
+        display: flex;
+        flex-direction: column;
+        justify-content:flex-end;
+        align-items:center;
+    }
+}
+.botontarjetainicio-dos{
+    text-decoration: none;
+    color: black;
+    font-size: 2rem;
+    background-color: white;
+    border:5px solid gray;
+    height: auto;
+    width: 300px;
+    margin-block-end:40px;
+    font-family: 'Saira', sans-serif;
+    &:hover{
+        border:5px solid rgb(255, 255, 255);
+        color: white;
+        background-color: rgb(0, 0, 0);
+    }
+}
+.tarjetainicio-tres{
+    background-image: url(../assets/iniciocontacto.png);
+    background-repeat: no-repeat;
+    height: 605px;
+    width: 420px;
+    border: 3px solid gray;
+    a{
+        display: flex;
+        flex-direction: column;
+        justify-content:flex-end;
+        align-items:center;
+    }
+}
+
+.tarjetainicio-cuatro{
+    background-image: url(../assets/Fotorecortadaaccesorioswss.png);
+    background-repeat: no-repeat;
+    height: 605px;
+    width: 420px;
+    border: 3px solid gray;
+    a{
+        display: flex;
+        flex-direction: column;
+        justify-content:flex-end;
+        align-items:center;
+    }
+}
