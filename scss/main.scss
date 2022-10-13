@@ -1,1 +1,21 @@
+// Utilis
+@import "utils/variables";
+
+// base
+@import "base/reset";
+
+// layout
+@import "layout/barranav";
+@import "layout/footer";
+@import "layout/logo";
+@import "layout/titulos";
+
+// components
+@import "components/buttons";
+@import "components/tarjetas";
+
+// pages
+@import "pages/contacto";
 @import "pages/index";
+
+

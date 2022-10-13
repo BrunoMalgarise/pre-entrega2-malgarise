@@ -1,0 +1,19 @@
+.productos{
+    color: white;
+    font-size: 2rem;
+    font-family: 'Saira', sans-serif;
+    text-align: center;
+    background-color: rgba(0, 0, 0, 0.244);
+    margin-top: 20px;
+    padding: 20px;
+}
+
+.tarjproductos{
+    background-color: gray;
+    font-family: 'Saira', sans-serif;
+    height: auto;
+    border-radius: 5px;
+    & h4{
+        font-size: 0.9rem;
+    }
+}
