@@ -85,6 +85,33 @@ body {
     align-items: flex-start;
   }
 }
+form {
+  color: white;
+  font-family: "Saira", sans-serif;
+}
+form div h1 {
+  align-items: center;
+}
+
+.bg-color {
+  background: rgba(128, 128, 128, 0.49);
+  border-radius: 20px;
+  padding: 10px;
+}
+
+.btnform {
+  color: white;
+  font-size: 2rem;
+  font-weight: bold;
+  background-color: rgba(225, 85, 85, 0.615);
+  width: auto;
+  padding: 10px;
+}
+
+.form-control:focus {
+  box-shadow: 0 0 0 0.25rem rgba(204, 63, 63, 0.28);
+}
+
 .logo {
   display: flex;
   flex-direction: row;
@@ -205,48 +232,11 @@ body {
 
 .fotofondocontacto {
   background-image: url(../assets/fotocontactofondo01.jpg);
-  height: 100vh;
+  height: 70vh;
+  width: 100%;
   background-repeat: no-repeat;
   background-size: cover;
-}
-
-form {
-  color: white;
-  font-family: "Saira", sans-serif;
-  height: auto;
-  width: auto;
-  margin: 0 auto;
-  padding: 2rem;
-  background: rgba(128, 128, 128, 0.49);
-}
-form div h1 {
-  align-items: center;
-}
-
-.div-dentro-del-form {
-  display: flex;
-  flex-direction: column;
-}
-
-.contacto-form {
-  padding: 0;
-  margin: 15px;
-  display: flex;
-  gap: 15px;
-}
-
-.formcontacto {
-  height: auto;
-  width: 400px;
-}
-
-.btnform {
-  color: white;
-  font-size: 2rem;
-  font-weight: bold;
-  background-color: rgba(225, 85, 85, 0.615);
-  width: 200px;
-  padding: 10px;
+  background-position: top;
 }
 
 .categoriasinicio {
@@ -272,18 +262,18 @@ form div h1 {
     width: 300px;
     height: 500px;
   }
-  main .tarjetainicio-tres {
+  main main .tarjetainicio-tres {
     width: 300px;
     height: 500px;
   }
-  main .tarjetainicio-cuatro {
+  main main .tarjetainicio-cuatro {
     width: 300px;
     height: 500px;
   }
-  main .botontarjetainicio {
+  main main .botontarjetainicio {
     font-size: 1.5rem;
   }
-  main .botontarjetainicio-dos {
+  main main .botontarjetainicio-dos {
     font-size: 1.3rem;
     width: 200px;
   }
