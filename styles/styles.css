@@ -59,6 +59,9 @@ body {
   text-decoration: none;
   list-style: none;
   padding: 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 .categorias-footer__li a {
   text-decoration: none;
@@ -205,6 +208,15 @@ form div h1 {
   background-color: rgb(173, 96, 18);
 }
 
+.imagenCarrusel {
+  height: 40vh;
+}
+@media (min-width: 992px) {
+  .imagenCarrusel {
+    height: 70vh;
+  }
+}
+
 .btnestilo {
   background-color: rgba(169, 101, 33, 0.7490196078);
   border: 3px solid rgba(0, 0, 0, 0.54);
@@ -255,7 +267,7 @@ form div h1 {
 
 .fotofondocontacto {
   background-image: url(../assets/fotocontactofondo01.jpg);
-  height: 70vh;
+  height: 85vh;
   width: 100%;
   background-repeat: no-repeat;
   background-size: cover;
@@ -285,18 +297,18 @@ form div h1 {
     width: 300px;
     height: 500px;
   }
-  main main .tarjetainicio-tres {
+  main .tarjetainicio-tres {
     width: 300px;
     height: 500px;
   }
-  main main .tarjetainicio-cuatro {
+  main .tarjetainicio-cuatro {
     width: 300px;
     height: 500px;
   }
-  main main .botontarjetainicio {
+  main .botontarjetainicio {
     font-size: 1.5rem;
   }
-  main main .botontarjetainicio-dos {
+  main .botontarjetainicio-dos {
     font-size: 1.3rem;
     width: 200px;
   }
@@ -336,6 +348,7 @@ form div h1 {
   height: 605px;
   width: 420px;
   border: 3px solid gray;
+  align-items: center;
 }
 .tarjetainicio a {
   display: flex;
@@ -350,7 +363,7 @@ form div h1 {
   font-size: 2rem;
   background-color: white;
   border: 5px solid gray;
-  height: auto;
+  height: 60px;
   width: 200px;
   margin-block-end: 40px;
   font-family: "Saira", sans-serif;
@@ -367,6 +380,7 @@ form div h1 {
   height: 605px;
   width: 420px;
   border: 3px solid gray;
+  align-items: center;
 }
 .tarjetainicio-dos a {
   display: flex;
@@ -398,6 +412,7 @@ form div h1 {
   height: 605px;
   width: 420px;
   border: 3px solid gray;
+  align-items: center;
 }
 .tarjetainicio-tres a {
   display: flex;
@@ -412,6 +427,7 @@ form div h1 {
   height: 605px;
   width: 420px;
   border: 3px solid gray;
+  align-items: center;
 }
 .tarjetainicio-cuatro a {
   display: flex;
