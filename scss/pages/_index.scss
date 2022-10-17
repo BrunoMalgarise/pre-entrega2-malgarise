@@ -25,21 +25,21 @@
             height: 500px;
         }
 
-        main .tarjetainicio-tres {
+        .tarjetainicio-tres {
             width: 300px;
             height: 500px;
         }
 
-        main .tarjetainicio-cuatro {
+        .tarjetainicio-cuatro {
             width: 300px;
             height: 500px;
         }
 
-        main .botontarjetainicio {
+        .botontarjetainicio {
             font-size: 1.5rem;
         }
 
-        main .botontarjetainicio-dos {
+        .botontarjetainicio-dos {
             font-size: 1.3rem;
             width: 200px;
         }
@@ -84,7 +84,7 @@
     height: 605px;
     width: 420px;
     border: 3px solid gray;
-
+    align-items: center;
     a {
         display: flex;
         flex-direction: column;
@@ -99,11 +99,10 @@
     font-size: 2rem;
     background-color: white;
     border: 5px solid gray;
-    height: auto;
+    height: 60px;
     width: 200px;
     margin-block-end: 40px;
     font-family: 'Saira', sans-serif;
-
     &:hover {
         border: 5px solid rgb(255, 255, 255);
         color: white;
@@ -117,12 +116,13 @@
     height: 605px;
     width: 420px;
     border: 3px solid gray;
-
+    align-items: center;
     a {
         display: flex;
         flex-direction: column;
         justify-content: flex-end;
         align-items: center;
+        
     }
 }
 
@@ -150,7 +150,7 @@
     height: 605px;
     width: 420px;
     border: 3px solid gray;
-
+    align-items: center;
     a {
         display: flex;
         flex-direction: column;
@@ -165,6 +165,7 @@
     height: 605px;
     width: 420px;
     border: 3px solid gray;
+    align-items: center;
 
     a {
         display: flex;
