@@ -33,7 +33,7 @@
     background-color: rgba(22, 22, 22, 0.693);
     padding: 10px;
     font-family: 'Saira', sans-serif;
-    border: 5px solid rgb(173, 96, 18);
+    border: 5px solid $color-marron;
 }
 // CIERRE DE H1
 
@@ -45,7 +45,7 @@
     color: white;
     padding: 15px;
     border-radius: 20px;
-    background-color: #a96521bf;
+    background-color: $color-marron;
 
     @media(min-width:250px) and (max-width:576px){
         &{
@@ -61,5 +61,5 @@
     text-align: center;
     color: white;
     font-family: 'Saira', sans-serif;
-    background-color: rgb(173, 96, 18);
+    background-color: $color-marron;
 }
