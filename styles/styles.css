@@ -179,7 +179,7 @@ form div h1 {
   background-color: rgba(22, 22, 22, 0.693);
   padding: 10px;
   font-family: "Saira", sans-serif;
-  border: 5px solid rgb(173, 96, 18);
+  border: 5px solid rgba(169, 101, 33, 0.7490196078);
 }
 
 .h2categoriasinicio {
@@ -205,7 +205,7 @@ form div h1 {
   text-align: center;
   color: white;
   font-family: "Saira", sans-serif;
-  background-color: rgb(173, 96, 18);
+  background-color: rgba(169, 101, 33, 0.7490196078);
 }
 
 .imagenCarrusel {

@@ -1,6 +1,6 @@
 // btn de barra de navegacion
 .btnestilo{
-    background-color: #a96521bf;
+    background-color:$color-marron;
     border: 3px solid rgba(0, 0, 0, 0.54);
 }
 // cierre de btn barra de navegacion
@@ -10,7 +10,7 @@
     color :white;
 }
 .btnDeTarjetas{
-    background-color: #a96521bf;
+    background-color: $color-marron;
     height: 50px;
     width: 60%;
     border-radius: 15px;
@@ -18,7 +18,7 @@
     
 }
 .popover-header{
-    background-color: #a96521bf;
+    background-color:$color-marron;
     color: white;
 }
 .popover-body{
