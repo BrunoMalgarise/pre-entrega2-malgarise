@@ -102,15 +102,6 @@ form div h1 {
   padding: 10px;
 }
 
-.btnform {
-  color: white;
-  font-size: 2rem;
-  font-weight: bold;
-  background-color: rgba(225, 85, 85, 0.615);
-  width: auto;
-  padding: 10px;
-}
-
 .form-control:focus {
   box-shadow: 0 0 0 0.25rem rgba(204, 63, 63, 0.28);
 }
@@ -119,6 +110,10 @@ form div h1 {
   display: flex;
   flex-direction: row;
   justify-content: flex-start;
+  transition: 500ms;
+}
+.logo:hover {
+  filter: opacity(0.5);
 }
 
 @media (min-width: 250px) and (max-width: 576px) {
@@ -147,29 +142,27 @@ form div h1 {
     width: 190px;
   }
 }
-.h1 {
+.h1 h1 {
   background-color: rgba(2, 2, 2, 0.9);
   color: rgba(155, 148, 148, 0.907);
-  font-size: 0.8rem;
+  font-size: 0.5em;
   font-family: "Saira", sans-serif;
   display: flex;
   justify-content: center;
   align-items: center;
-  height: 100px;
+  height: 50px;
   width: 100%;
 }
 
 @media (min-width: 250px) and (max-width: 382px) {
   .h1 h1 {
     font-size: 0.8rem;
-    display: inline;
     justify-content: center;
   }
 }
 @media (min-width: 382px) and (max-width: 576px) {
   .h1 h1 {
-    font-size: 0.8rem;
-    display: inline;
+    font-size: 0.9rem;
     justify-content: center;
   }
 }
@@ -245,6 +238,15 @@ form div h1 {
   color: rgb(0, 0, 0);
 }
 
+.btnform {
+  color: white;
+  font-size: 2rem;
+  font-weight: bold;
+  background-color: rgba(225, 85, 85, 0.615);
+  width: auto;
+  padding: 10px;
+}
+
 .productos {
   color: white;
   font-size: 2rem;
@@ -274,13 +276,6 @@ form div h1 {
   background-position: top;
 }
 
-.categoriasinicio {
-  display: flex;
-  flex-direction: row;
-  justify-content: space-evenly;
-  padding: 30px;
-}
-
 @media (min-width: 250px) and (max-width: 700px) {
   main .categoriasinicio {
     display: flex;
@@ -289,32 +284,33 @@ form div h1 {
     align-items: center;
     gap: 50px;
   }
-  main .tarjetainicio {
+  main .categoriasinicio .tarjetainicio {
     width: 300px;
     height: 500px;
   }
-  main .tarjetainicio-dos {
+  main .categoriasinicio .tarjetainicio-dos {
     width: 300px;
     height: 500px;
   }
-  main .tarjetainicio-tres {
+  main .categoriasinicio .tarjetainicio-tres {
     width: 300px;
     height: 500px;
   }
-  main .tarjetainicio-cuatro {
+  main .categoriasinicio .tarjetainicio-cuatro {
     width: 300px;
     height: 500px;
   }
-  main .botontarjetainicio {
-    font-size: 1.5rem;
+  main .categoriasinicio .botontarjetainicio {
+    font-size: 1.3rem;
+    height: auto;
   }
-  main .botontarjetainicio-dos {
+  main .categoriasinicio .botontarjetainicio-dos {
     font-size: 1.3rem;
     width: 200px;
   }
 }
 @media (min-width: 576px) and (max-width: 930px) {
-  main .categoriasinicio {
+  main {
     padding: 10px;
     margin: 10px;
   }
@@ -336,12 +332,21 @@ form div h1 {
   }
   main .botontarjetainicio {
     font-size: 1.3rem;
+    height: auto;
   }
   main .botontarjetainicio-dos {
     font-size: 1.3rem;
     width: 200px;
   }
 }
+
+.categoriasinicio {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  padding: 30px;
+}
+
 .tarjetainicio {
   background-image: url(../assets/Fotorecortadamaquina.png);
   background-repeat: no-repeat;

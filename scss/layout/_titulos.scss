@@ -1,28 +1,27 @@
 // INICIO H1
 
 .h1{
-    background-color: rgba(2, 2, 2, 0.9);
-    color:rgba(155, 148, 148, 0.907);
-    font-size: 0.8rem;
-    font-family: 'Saira', sans-serif;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    height: 100px;
-    width: 100%;
-
+    h1{
+        background-color: rgba(2, 2, 2, 0.9);
+        color:rgba(155, 148, 148, 0.907);
+        font-size: 0.5em;
+        font-family: 'Saira', sans-serif;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 50px;
+        width: 100%;
+    }
 }
 @media(min-width:250px) and (max-width:382px){
     .h1 h1{
         font-size: 0.8rem;
-        display: inline;
         justify-content: center;
     }
 }
 @media(min-width:382px) and (max-width:576px){
     .h1 h1{
-        font-size: 0.8rem;
-        display: inline;
+        font-size: 0.9rem;
         justify-content: center;
     }
 }
