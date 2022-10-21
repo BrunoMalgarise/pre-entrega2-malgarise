@@ -1,11 +1,10 @@
 // INICIO H1
 
-.h1{
-    h1{
+.h1 {
+    h1 {
         background-color: rgba(2, 2, 2, 0.9);
-        color:rgba(155, 148, 148, 0.907);
+        color: rgba(155, 148, 148, 0.907);
         font-size: 0.5em;
-        font-family: 'Saira', sans-serif;
         display: flex;
         justify-content: center;
         align-items: center;
@@ -13,32 +12,33 @@
         width: 100%;
     }
 }
-@media(min-width:250px) and (max-width:382px){
-    .h1 h1{
+
+@media(min-width:250px) and (max-width:382px) {
+    .h1 h1 {
         font-size: 0.8rem;
         justify-content: center;
     }
 }
-@media(min-width:382px) and (max-width:576px){
-    .h1 h1{
+
+@media(min-width:382px) and (max-width:576px) {
+    .h1 h1 {
         font-size: 0.9rem;
         justify-content: center;
     }
 }
 
-.textoh1{
+.textoh1 {
     text-align: center;
     color: white;
     background-color: rgba(22, 22, 22, 0.693);
     padding: 10px;
-    font-family: 'Saira', sans-serif;
     border: 5px solid $color-marron;
 }
+
 // CIERRE DE H1
 
 // INICIO H2
-.h2categoriasinicio{
-    font-family: 'Saira', sans-serif;
+.h2categoriasinicio {
     text-align: center;
     font-size: 2rem;
     color: white;
@@ -46,19 +46,20 @@
     border-radius: 20px;
     background-color: $color-marron;
 
-    @media(min-width:250px) and (max-width:576px){
-        &{
+    @media(min-width:250px) and (max-width:576px) {
+        & {
             margin-top: 5px;
             font-size: 0.5rem;
+
             main & {
                 font-size: 1.3rem;
             }
         }
     }
 }
-.textoh2{
+
+.textoh2 {
     text-align: center;
     color: white;
-    font-family: 'Saira', sans-serif;
     background-color: $color-marron;
 }

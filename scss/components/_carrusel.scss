@@ -1,6 +1,8 @@
-.imagenCarrusel{
-    height: 40vh;
-    @media(min-width:992px){
-        height: 70vh;
+.imagenCarrusel {
+    height: auto;
+    object-fit: cover;
+
+    @media(min-width:992px) {
+        height: 80vh;
     }
 }

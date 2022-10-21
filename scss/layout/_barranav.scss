@@ -1,43 +1,46 @@
-.fondodebarradenav{
+.fondodebarradenav {
     background-color: coral;
     background-image: url(../assets/Fotonavajadfondonav.png);
-    background-repeat:no-repeat;
+    background-repeat: no-repeat;
     background-position: center;
-    background-size:cover;
+    background-size: cover;
 }
 
-.barnav{
+.barnav {
     display: flex;
     flex-direction: row;
     justify-content: start;
-    ul{
+
+    ul {
         background-color: $color-marron;
         border-radius: 20px;
-        li{
+
+        li {
             padding-inline: 10px;
-            a{
+
+            a {
                 color: white;
                 padding: 10px;
-                font-family: 'Saira', sans-serif;
                 font-size: 1rem;
-                }
             }
         }
     }
-.barnav__animacion{
-    a{
-        &:hover{
+}
+
+.barnav__animacion {
+    a {
+        &:hover {
             color: black;
             transform: scale(1.2);
         }
     }
 }
-@media(min-width:0px) and (max-width:992px){
-    .barnav{
-        ul{
+
+@media(min-width:0px) and (max-width:992px) {
+    .barnav {
+        ul {
             width: 100%;
             text-align: center;
         }
     }
 }
-

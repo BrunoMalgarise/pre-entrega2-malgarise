@@ -1,18 +1,20 @@
-*{
+* {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font-family: 'Saira', sans-serif;
 }
 
-ul,ol{
+ul,
+ol {
     list-style: none;
 }
 
-a{
+a {
     text-decoration: none;
 }
 
-body{
+body {
     background-color: rgba(0, 0, 0, 0.779);
     overflow: auto;
 }

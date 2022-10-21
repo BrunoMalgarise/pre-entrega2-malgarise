@@ -7,67 +7,67 @@ main {
             align-items: center;
             gap: 50px;
 
-        .tarjetainicio {
-            @include tarjeta-index__HandY;
-        }
+            .tarjetainicio {
+                @include tarjeta-index__HandY;
+            }
 
-        .tarjetainicio-dos {
-            @include tarjeta-index__HandY;
-        }
+            .tarjetainicio-dos {
+                @include tarjeta-index__HandY;
+            }
 
-        .tarjetainicio-tres {
-            @include tarjeta-index__HandY;
-        }
+            .tarjetainicio-tres {
+                @include tarjeta-index__HandY;
+            }
 
-        .tarjetainicio-cuatro {
-            @include tarjeta-index__HandY;
-        }
+            .tarjetainicio-cuatro {
+                @include tarjeta-index__HandY;
+            }
 
-        .botontarjetainicio {
-            font-size: 1.3rem;
-            height: auto;
-        }
+            .botontarjetainicio {
+                font-size: 1.3rem;
+                height: auto;
+            }
 
-        .botontarjetainicio-dos {
-            font-size: 1.3rem;
-            width: 200px;
-        }
-    }
-}
-
-    & {
-            @include tarjeta-index__lg() {
-                padding: 10px;
-                margin: 10px;
-
-                .tarjetainicio {
-                    @include tarjeta-index__HandY(290px);
-                }
-
-                .tarjetainicio-dos {
-                    @include tarjeta-index__HandY(290px);
-                }
-
-                .tarjetainicio-tres {
-                    @include tarjeta-index__HandY(290px);
-                }
-
-                .tarjetainicio-cuatro {
-                    @include tarjeta-index__HandY(290px);
-                }
-
-                .botontarjetainicio {
-                    font-size: 1.3rem;
-                    height: auto;
-                }
-
-                .botontarjetainicio-dos {
-                    font-size: 1.3rem;
-                    width: 200px;
-                }
+            .botontarjetainicio-dos {
+                font-size: 1.3rem;
+                width: 200px;
             }
         }
     }
+
+    & {
+        @include tarjeta-index__lg() {
+            padding: 10px;
+            margin: 10px;
+
+            .tarjetainicio {
+                @include tarjeta-index__HandY(290px);
+            }
+
+            .tarjetainicio-dos {
+                @include tarjeta-index__HandY(290px);
+            }
+
+            .tarjetainicio-tres {
+                @include tarjeta-index__HandY(290px);
+            }
+
+            .tarjetainicio-cuatro {
+                @include tarjeta-index__HandY(290px);
+            }
+
+            .botontarjetainicio {
+                font-size: 1.3rem;
+                height: auto;
+            }
+
+            .botontarjetainicio-dos {
+                font-size: 1.3rem;
+                width: 200px;
+            }
+        }
+    }
+}
 
 
 .categoriasinicio {
@@ -102,7 +102,6 @@ main {
     height: 60px;
     width: 200px;
     margin-block-end: 40px;
-    font-family: 'Saira', sans-serif;
 
     &:hover {
         border: 5px solid rgb(255, 255, 255);
@@ -137,7 +136,6 @@ main {
     height: auto;
     width: 300px;
     margin-block-end: 40px;
-    font-family: 'Saira', sans-serif;
 
     &:hover {
         border: 5px solid rgb(255, 255, 255);
